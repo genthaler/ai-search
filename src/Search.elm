@@ -35,6 +35,10 @@ module Search exposing
 
 @docs aStar, greedy, fBounded, iterativeDeepeningAStar
 
+# Adversarial search strategies
+
+@docs minimax, alphaBeta
+
 -}
 
 import Heap exposing (Heap)
